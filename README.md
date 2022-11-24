@@ -94,3 +94,15 @@ python test.py --Quality_restore \
                --test_input [test_image_folder_path] \
                --outputs_dir [output_path]
 ```
+
+# OurImages
+To reproduce the results we obtained from our experimentation, please use the images provided in _OurImages_.
+Specifically, given below is an example command to get scratch free images for all photos present in the folder:
+```
+mkdir MyOutput
+python run.py --input_folder ./OurImages \
+              --output_folder ./MyOutput \
+              --GPU -1 \
+              --with_scratch \
+              --HR
+```
