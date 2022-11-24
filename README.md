@@ -3,6 +3,7 @@ Python>=3.6 is required to run the code.
 
 # Directions to install:
 Run the following from the base directory:
+
 0. (This step is optional, if you dont want to update your libraries):
 Make a virtual environment for pip to work in
 
